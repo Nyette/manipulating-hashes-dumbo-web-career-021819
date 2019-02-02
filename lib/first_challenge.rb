@@ -15,7 +15,7 @@ def first_challenge
 
   #your code here
   flavors = contacts["Freddy Mercury"][:favorite_icecream_flavors]
-  flavors.each do |flavor|
+  flavors.delete_if do |flavor|
     if flavor == "strawberry"
       flavors.delete
     end
