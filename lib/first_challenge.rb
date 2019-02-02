@@ -14,7 +14,10 @@ def first_challenge
   }
 
   #your code here
-
+  contacts["Freddy Mercury"][:favorite_icecream_flavors].each do |flavor|
+    if flavor == "strawberry"
+      
+    end
 
   #remember to return your newly altered contacts hash!
   contacts
